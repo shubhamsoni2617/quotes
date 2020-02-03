@@ -1,9 +1,63 @@
-.App {
-  text-align: center;
-  
+* {
+  margin: 0px;
+  /* padding: 0px; */
 }
 
-.App h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+.App {
+  text-align: center;
+  /* color: red; */
+}
+.test {
+  background: black;
+  color: orange;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.secondPara {
+  margin-top: 10px;
+  /* background: black 5px 100%; */
+}
+
+.mainHead {
+  background: rgb(30, 155, 72);
+  padding: 10px 0px;
+}
+
+.navItem {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 10px;
+  /* text-decoration: none; */
+}
+.navItem > a {
+  text-decoration: none;
+}
+.navItem > a:hover,
+.navItem > a:active {
+  color: aliceblue;
+}
+/* .navItem > a:active {
+  color: aliceblue;
+} */
+
+.navLink {
+  color: red;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo > .logoLink {
+  text-decoration: none;
+  font-size: 22px;
+
+  color: black;
+}
+.navMain {
+  vertical-align: middle;
+  padding: 0px;
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 100px);
 }
