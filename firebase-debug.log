@@ -1,0 +1,43 @@
+[debug] [2020-02-16T12:22:58.020Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T12:22:58.035Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham soni\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T12:22:58.037Z] CLI Version:   7.13.0
+[debug] [2020-02-16T12:22:58.038Z] Platform:      win32
+[debug] [2020-02-16T12:22:58.038Z] Node Version:  v10.15.3
+[debug] [2020-02-16T12:22:58.045Z] Time:          Sun Feb 16 2020 17:52:58 GMT+0530 (India Standard Time)
+[debug] [2020-02-16T12:22:58.045Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T12:22:58.046Z] 
+[debug] [2020-02-16T12:22:58.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T12:22:58.183Z] > authorizing via signed-in user
+[debug] [2020-02-16T12:22:58.184Z] [iam] checking project filmseers for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T12:22:58.201Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-16T12:22:58.206Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-16T12:22:59.148Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T12:22:59.210Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/filmseers:testIamPermissions  
+
+[debug] [2020-02-16T12:23:01.983Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T12:23:01.990Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/filmseers  
+ 
+[debug] [2020-02-16T12:23:02.929Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shubham soni\projects\quote-machine\quote-machine'...
+[info] 
+[debug] [2020-02-16T12:23:02.953Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/filmseers/webApps/-/config  
+ 
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2020-02-16T12:23:04.532Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "C:\Users\Shubham soni\projects\quote-machine\quote-machine\functions" for Cloud Functions...
+[debug] [2020-02-16T12:23:04.913Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-16T12:23:04.914Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-16T12:23:04.915Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-16T12:23:04.918Z] [worker-~diagnostic~-58143dfc-eee3-43c2-8e95-d6a182fcb548]: Assigning socketPath: \\?\pipe\C:\Users\Shubham soni\projects\quote-machine\quote-machine\functions\14948
+[debug] [2020-02-16T12:23:04.922Z] [worker-~diagnostic~-58143dfc-eee3-43c2-8e95-d6a182fcb548]: BUSY
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-02-16T12:23:07.353Z] [runtime-status] [14948] Functions runtime initialized. {"cwd":"C:\\Users\\Shubham soni\\projects\\quote-machine\\quote-machine\\functions","node_version":"10.15.3"}
+[debug] [2020-02-16T12:23:07.360Z] [runtime-status] [14948] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-16T12:23:07.388Z] [runtime-status] [14948] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Shubham soni\\projects\\quote-machine\\quote-machine\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-16T12:23:07.405Z] [runtime-status] [14948] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Shubham soni\\projects\\quote-machine\\quote-machine\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-16T12:23:07.408Z] [runtime-status] [14948] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Shubham soni\\projects\\quote-machine\\quote-machine\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-16T12:23:08.366Z] [worker-~diagnostic~-58143dfc-eee3-43c2-8e95-d6a182fcb548]: IDLE

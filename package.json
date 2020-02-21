@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "firebase": "^7.8.2",
+    "moment": "^2.24.0",
     "node-sass": "^4.13.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
+    "react-select": "^3.0.8",
     "react-slick": "^0.25.2"
   },
   "scripts": {
@@ -19,7 +22,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://jsonplaceholder.typicode.com",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -34,5 +36,16 @@
   },
   "devDependencies": {
     "prettier": "^1.19.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamsoni2617/quotes/issues"
+  },
+  "homepage": "https://github.com/shubhamsoni2617/quotes#readme"
 }

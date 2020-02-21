@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Tab from './Tab';
 
 const Tabs = ({ children }) => {
-  console.log(children);
   const [activeTab, setActiveTab] = useState(children[0].props.label);
 
   const onClickTabItem = tab => {
