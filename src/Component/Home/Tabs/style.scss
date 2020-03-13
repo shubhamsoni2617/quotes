@@ -1,0 +1,45 @@
+
+
+
+h2 {
+    color: white;
+  }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  // border-bottom: 1px solid #ccc;    
+    justify-content: center;
+    .card {
+      flex: 0 0 auto;
+      margin-right: 3px;
+      border: none;
+      padding: 5px;
+      background: rgb(68, 133, 49);
+    }
+   
+  }
+  
+//   .card {
+//     border: 2px solid red   ;
+//     width: 100px;
+//     height: 35px;
+//     background: black;
+//   }
+  
+  .scrolling-wrapper, .scrolling-wrapper-flexbox {
+    // height: 80px;
+    // margin-bottom: 20px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .active{
+        background-color: white;
+        border: solid #ccc;
+        border-width: 1px 1px 0 1px !important;
+    }   
+  }
+  
